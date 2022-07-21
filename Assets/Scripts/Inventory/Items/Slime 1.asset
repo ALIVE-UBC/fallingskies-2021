@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7eba38f73a91f641889f41a288c2f5d, type: 3}
+  m_Name: Slime 1
+  m_EditorClassIdentifier: 
+  ItemId: 2
+  ItemStackSize: 1
+  ItemName: Slime
+  IsReport: 0
+  ItemDescription: A green slime.
+  ItemThumbnail: {fileID: 21300000, guid: a3850401348404655bd0352054c28683, type: 3}
+  IsComputerCompatible: 0
+  IsMicroscopeCompatible: 0
+  ReportItem: {fileID: 0}

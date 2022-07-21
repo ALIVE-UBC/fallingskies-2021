@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 208139f58523a8649a9ef17c1f5f6661, type: 3}
+  m_Name: Fetch 1
+  m_EditorClassIdentifier: 
+  Id: 0
+  Title: Collect a mushroom
+  TitlePendingSubmission: Bring the mushroom back
+  Description: Locate and collect a mushroom before reporting back to the NPC.
+  State: 0
+  RewardItems: []
+  UnlockingDialogIds: 2a000000
+  RequiredItems:
+  - {fileID: 11400000, guid: 2b3959c45182edb43af2e3b7ea1b1e39, type: 2}

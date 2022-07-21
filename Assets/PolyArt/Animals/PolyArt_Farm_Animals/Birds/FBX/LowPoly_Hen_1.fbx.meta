@@ -1,0 +1,160 @@
+fileFormatVersion: 2
+guid: 696457e8ccf1a0d4b98dc33483136983
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: arm.L
+    100002: arm.R
+    100004: Arm_cock
+    100006: body
+    100008: finger1.L
+    100010: finger1.R
+    100012: finger2.L
+    100014: finger2.R
+    100016: finger3.L
+    100018: finger3.R
+    100020: finger4.L
+    100022: finger4.R
+    100024: hand.L
+    100026: hand.R
+    100028: head
+    100030: Help_Leg.L
+    100032: Help_Leg.R
+    100034: Hen_1
+    100036: leg1.L
+    100038: leg1.R
+    100040: leg2.L
+    100042: leg2.R
+    100044: //RootNode
+    100046: mouth
+    100048: neck
+    100050: Root
+    100052: spine_01
+    100054: spine_02
+    100056: spine_03
+    100058: tail
+    400000: arm.L
+    400002: arm.R
+    400004: Arm_cock
+    400006: body
+    400008: finger1.L
+    400010: finger1.R
+    400012: finger2.L
+    400014: finger2.R
+    400016: finger3.L
+    400018: finger3.R
+    400020: finger4.L
+    400022: finger4.R
+    400024: hand.L
+    400026: hand.R
+    400028: head
+    400030: Help_Leg.L
+    400032: Help_Leg.R
+    400034: Hen_1
+    400036: leg1.L
+    400038: leg1.R
+    400040: leg2.L
+    400042: leg2.R
+    400044: //RootNode
+    400046: mouth
+    400048: neck
+    400050: Root
+    400052: spine_01
+    400054: spine_02
+    400056: spine_03
+    400058: tail
+    2100000: Hen
+    4300000: Hen_1
+    9500000: //RootNode
+    13700000: Hen_1
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hen
+    second: {fileID: 2100000, guid: 0f3389da8e0ce7e43b8505def669d963, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 0
+    keepQuads: 0
+    weldVertices: 0
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: Root
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

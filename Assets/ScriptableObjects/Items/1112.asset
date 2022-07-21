@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7eba38f73a91f641889f41a288c2f5d, type: 3}
+  m_Name: 1112
+  m_EditorClassIdentifier: 
+  ItemId: 1112
+  ItemStackSize: 1
+  ItemName: Bird Test Report (Cattle Pen)
+  IsReport: 1
+  ItemDescription: 'Found at: The Cattle Pen
+
+    Name: Red-headed Woodpecker (Melanerpes
+    erythrocephalus)
+
+    It is smaller than normal. Parasites are present.
+
+    Blood
+    test: Low white blood cell count.
+
+    DNA: No mutations.'
+  ItemThumbnail: {fileID: 21300000, guid: 9801aa96b394991458cc432f5023ec6c, type: 3}
+  IsComputerCompatible: 0
+  IsMicroscopeCompatible: 0
+  ReportItem: {fileID: 0}

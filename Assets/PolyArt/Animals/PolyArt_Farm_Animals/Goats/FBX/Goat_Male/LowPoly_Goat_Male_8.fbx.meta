@@ -1,0 +1,188 @@
+fileFormatVersion: 2
+guid: 97b4a61e92fd6e446b9677d74883f85e
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Arm_goat
+    100002: Ear.L
+    100004: Ear.R
+    100006: eye.L
+    100008: eye.R
+    100010: Goat_Male_8
+    100012: Hair_01
+    100014: Hair_02
+    100016: head
+    100018: Help_knee.L
+    100020: Help_knee.R
+    100022: hip_1_f.L
+    100024: hip_1_f.R
+    100026: hip_2_f.L
+    100028: hip_2_f.R
+    100030: hip_b.L
+    100032: hip_b.R
+    100034: hoof_b.L
+    100036: hoof_b.R
+    100038: hoof_b_Helper.L
+    100040: hoof_b_Helper.R
+    100042: hoof_f.L
+    100044: hoof_f.R
+    100046: hoof_f_Helper.L
+    100048: hoof_f_Helper.R
+    100050: //RootNode
+    100052: mouth
+    100054: neck_01
+    100056: neck_02
+    100058: root_bone
+    100060: shin_b.L
+    100062: shin_b.R
+    100064: shin_f.L
+    100066: shin_f.R
+    100068: Spine_02
+    100070: Spine_03
+    100072: Spine_04
+    100074: Spine_05
+    100076: Spine_base
+    100078: tail
+    100080: thigh_b.L
+    100082: thigh_b.R
+    100084: thigh_f.L
+    100086: thigh_f.R
+    400000: Arm_goat
+    400002: Ear.L
+    400004: Ear.R
+    400006: eye.L
+    400008: eye.R
+    400010: Goat_Male_8
+    400012: Hair_01
+    400014: Hair_02
+    400016: head
+    400018: Help_knee.L
+    400020: Help_knee.R
+    400022: hip_1_f.L
+    400024: hip_1_f.R
+    400026: hip_2_f.L
+    400028: hip_2_f.R
+    400030: hip_b.L
+    400032: hip_b.R
+    400034: hoof_b.L
+    400036: hoof_b.R
+    400038: hoof_b_Helper.L
+    400040: hoof_b_Helper.R
+    400042: hoof_f.L
+    400044: hoof_f.R
+    400046: hoof_f_Helper.L
+    400048: hoof_f_Helper.R
+    400050: //RootNode
+    400052: mouth
+    400054: neck_01
+    400056: neck_02
+    400058: root_bone
+    400060: shin_b.L
+    400062: shin_b.R
+    400064: shin_f.L
+    400066: shin_f.R
+    400068: Spine_02
+    400070: Spine_03
+    400072: Spine_04
+    400074: Spine_05
+    400076: Spine_base
+    400078: tail
+    400080: thigh_b.L
+    400082: thigh_b.R
+    400084: thigh_f.L
+    400086: thigh_f.R
+    2100000: Goat
+    4300000: Goat_Male_8
+    9500000: //RootNode
+    13700000: Goat_Male_8
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Goat
+    second: {fileID: 2100000, guid: 77382a45343130c4dba9daff2592470b, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 0
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 0
+    keepQuads: 0
+    weldVertices: 0
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: root_bone
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 208139f58523a8649a9ef17c1f5f6661, type: 3}
+  m_Name: 3004 Fetch Boot (Ethan)
+  m_EditorClassIdentifier: 
+  Id: 3004
+  Title: Help Ethan find his boot
+  TitlePendingSubmission: Go back to talk with Ethan
+  Description: 'Help Ethan find his boot. You can find it around the farm.
+
+
+    Once
+    you have found it, you can come back and talk to him again.'
+  State: 0
+  RewardItems: []
+  UnlockingDialogIds: a60f0000
+  RequiredItems:
+  - {fileID: 11400000, guid: 326341c7293ec24499b01a9f7a6deffb, type: 2}
