@@ -6588,7 +6588,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 50
     y: 50
-    width: 72.580666
+    width: 78.26087
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6614,21 +6614,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 81.65642, y: 136.37218}
+  scrollPos: {x: 104.26184, y: -142.22415}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
-  zoom: 0.30999973
+  zoom: 0.46
   scrollViewRect:
     serializedVersion: 2
     x: 0
     y: 0
     width: 0
     height: 0
-  selectedBlocks:
-  - {fileID: 196521337}
-  selectedCommands:
-  - {fileID: 196521335}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 196521320}
   description: 
@@ -6655,18 +6653,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 15
   indentLevel: 0
-  storyText: 'We think it could be one of these issues:{wi}
-
-    * LOGGING
-
-    *
-    PESTICIDES
-
-    * POLLUTION
-
-    * PARASITES
-
-    * WINDOW COLLISIONS'
+  storyText: "So, we think it could be one of these issues:\r \n\u2022 LOGGING\r\n\u2022
+    PESTICIDES\r\n\u2022 POLLUTION\r\n\u2022 PARASITES\r\n\u2022 WINDOW COLLISIONS"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6693,10 +6681,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 14
   indentLevel: 0
-  storyText: 'We think there are some possible explanations as to what is causing
-    the red-headed woodpeckers to die off. But you will need to do some fieldwork
-    around WARBLER HILL to collect evidence and then return to the lab to examine
-    that evidence. '
+  storyText: 'We''ve come up with some possible explanations for why the red-headed
+    woodpeckers are dying, but you''ll need to do some fieldwork around WARBLER HILL
+    to collect evidence and then return to the lab to examine it. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6725,7 +6712,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 16.105392
     y: 348.1841
-    width: 169.35495
+    width: 167.3913
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6752,7 +6739,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 12
   indentLevel: 0
-  text: OK. Let's find out why.
+  text: OK. Let's do it!
   description: 
   targetBlock: {fileID: 196521277}
   hideIfVisited: 0
@@ -6778,7 +6765,7 @@ MonoBehaviour:
   itemId: 11
   indentLevel: 0
   storyText: So, your task is to investigate why these red-headed woodpeckers are
-    dying. Figuring this out it is critically important to the future of the WARBLER
+    dying. Figuring this out it is really important to the future of the WARBLER
     HILL ecosystem.
   description: 
   character: {fileID: 0}
@@ -6806,7 +6793,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 10
   indentLevel: 0
-  storyText: 'Indeed, it is strange! '
+  storyText: 'It sure is strange! '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6833,7 +6820,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 9
   indentLevel: 0
-  text: That's strange!
+  text: Hmm. That's strange!
   description: 
   targetBlock: {fileID: 196521282}
   hideIfVisited: 0
@@ -6860,7 +6847,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 37.157867
     y: 256.0789
-    width: 127.41942
+    width: 130.43478
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6888,7 +6875,7 @@ MonoBehaviour:
   itemId: 7
   indentLevel: 0
   storyText: These beautiful birds have suddenly started to die-off. According to
-    our records fewer and fewer red-headed woodpeckers are now active in this area.
+    our records, fewer and fewer red-headed woodpeckers are now active in this area.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6915,8 +6902,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 6
   indentLevel: 0
-  storyText: 'Not too long ago, there was big group of  red-headed woodpeckers living
-    in the forests aroung the town of RED RIVER. '
+  storyText: 'Not too long ago, there was big group of red-headed woodpeckers living
+    in the forests around the town of RED RIVER. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6943,7 +6930,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 5
   indentLevel: 0
-  storyText: 'Great! Thank you for helping! '
+  storyText: 'Great! Thank you for helping. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6972,7 +6959,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -29
     y: 168.5
-    width: 240
+    width: 232.60869
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7000,7 +6987,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  text: Yes, I would like to help investigate!
+  text: Sure! I'd love to help investigate.
   description: 
   targetBlock: {fileID: 196521286}
   hideIfVisited: 0
@@ -7025,9 +7012,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 65
   indentLevel: 0
-  storyText: WARBLER HILL is an area rich in plant and animal biodiversity and has
-    a vibrant community. However, there are some troubling ecological developments.
-    Would you like to help us figure out what is going on?
+  storyText: RED RIVER is an area rich in plant and animal biodiversity, with a vibrant
+    community, but there are some troubling ecological developments. Would you like
+    to help us figure out what is going on?
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7054,8 +7041,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: 'Ah, we have arrived back on Earth! We have landed at WARBLER HILL just
-    outside the town of RED RIVER. '
+  storyText: Ah, we have arrived back on Earth! We've landed at WARBLER HILL just
+    outside the town of RED RIVER.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7082,18 +7069,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 19
   indentLevel: 0
-  storyText: '1. Talk to the people you come across. Sometimes, you may need to go
-    on a quest before they will give you any information!
+  storyText: '1. Talk to the people you come across. Sometimes, you might need to
+    go on a quest before they will give you any information!
 
-    {wi}2. Collect the
+    2. Collect the
     evidence that you think is important.
 
-    {wi}3. Come back to the ALIVE Lab
-    to analyze this evidence and you will get a report of the results.
+    3. Come back to the ALIVE Lab to
+    analyze this evidence and you''ll get a report of the results.
 
-    {wi}4.
-    Once you have found enough evidence to support what you think is happening, then
-    you come back and tell me.'
+    4. Once
+    you have found enough evidence to support what you think is happening, then you
+    come back and tell me.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7147,9 +7134,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -16.789299
+    x: -9.096989
     y: 444.23694
-    width: 195.1614
+    width: 189.13043
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7201,8 +7188,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 43
   indentLevel: 0
-  storyText: OK. Go ahead! Come back to me when you are ready to submit your final
-    hypothesis and supporting evidence.
+  storyText: Excellent! Come back to me when you are ready to submit your final hypothesis
+    and supporting evidence.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7231,7 +7218,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 65.46979
     y: 1069.4714
-    width: 195.1614
+    width: 189.13043
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7257,8 +7244,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 55
   indentLevel: 0
-  storyText: 'That''s great! Start in the town of RED RIVER. Don''t be afraid to
-    talk to people. I know the Mayor of RED RIVER is very friendly. '
+  storyText: 'Great! Start in the town of RED RIVER and don''t be afraid to talk
+    to people. I know the Mayor of RED RIVER is really friendly. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7285,7 +7272,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 54
   indentLevel: 0
-  text: OK!
+  text: I will!
   description: 
   targetBlock: {fileID: 196521298}
   hideIfVisited: 0
@@ -7312,7 +7299,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 130.85635
     y: 972.7134
-    width: 69.35486
+    width: 69.565216
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7446,7 +7433,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 97.548134
     y: 847.64124
-    width: 130.64523
+    width: 132.6087
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7477,7 +7464,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 511.9115
     y: 675.8987
-    width: 175.80655
+    width: 171.73914
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7505,7 +7492,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 309.52618
     y: 675.8158
-    width: 104.83876
+    width: 119.565216
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7533,7 +7520,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 129.263
     y: 673.1847
-    width: 117.742
+    width: 117.391304
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7561,7 +7548,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -36.526268
     y: 674.2587
-    width: 114.51618
+    width: 119.565216
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7589,7 +7576,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -212.97629
     y: 676.917
-    width: 108.06457
+    width: 102.17391
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7740,7 +7727,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 22
   indentLevel: 0
-  storyText: 'Before you get started collecting evidence, what do you think is causing
+  storyText: 'Before you get started collecting evidence, please guess what''s causing
     the red-headed wood peckers to die-off? '
   description: 
   character: {fileID: 0}
@@ -7770,7 +7757,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -6.263092
     y: 520.5527
-    width: 188.7098
+    width: 182.60869
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7800,7 +7787,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 20
   indentLevel: 0
-  text: Great! I think I can do that!
+  text: Right...I think I can do that...
   description: 
   targetBlock: {fileID: 196521316}
   hideIfVisited: 0
@@ -7912,7 +7899,7 @@ MonoBehaviour:
         spriteVal: {fileID: 0}
       stringData:
         stringRef: {fileID: 0}
-        stringVal: PESTICIDES
+        stringVal: PESTICIDES are
       textureData:
         textureRef: {fileID: 0}
         textureVal: {fileID: 0}
@@ -8079,7 +8066,7 @@ MonoBehaviour:
         spriteVal: {fileID: 0}
       stringData:
         stringRef: {fileID: 0}
-        stringVal: LOGGING
+        stringVal: LOGGING and wood harvesting is
       textureData:
         textureRef: {fileID: 0}
         textureVal: {fileID: 0}
@@ -8159,8 +8146,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 45
   indentLevel: 0
-  storyText: So, you think {$Cause} of the water is causing the red-headed woodpeckers
-    to die-off? Don't forget to find evidence to support your claim.
+  storyText: So, you think {$Cause} causing the woodpeckers to die-off? Now you need
+    to find evidence to support your claim.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -8259,7 +8246,7 @@ MonoBehaviour:
         spriteVal: {fileID: 0}
       stringData:
         stringRef: {fileID: 0}
-        stringVal: POLLUTION
+        stringVal: POLLUTION of the water is
       textureData:
         textureRef: {fileID: 0}
         textureVal: {fileID: 0}
@@ -8411,7 +8398,7 @@ MonoBehaviour:
         spriteVal: {fileID: 0}
       stringData:
         stringRef: {fileID: 0}
-        stringVal: PARASITES
+        stringVal: PARASITES are
       textureData:
         textureRef: {fileID: 0}
         textureVal: {fileID: 0}
@@ -8563,7 +8550,7 @@ MonoBehaviour:
         spriteVal: {fileID: 0}
       stringData:
         stringRef: {fileID: 0}
-        stringVal: WINDOW COLLISIONS
+        stringVal: WINDOW COLLISIONS are
       textureData:
         textureRef: {fileID: 0}
         textureVal: {fileID: 0}
@@ -8643,8 +8630,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 52
   indentLevel: 0
-  storyText: We are the guardians of this great Earth, so it is important we take
-    this seriously!
+  storyText: It's really important that we get to the bottom of this, so keep your
+    eyes and ears open as you investigate.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -8672,8 +8659,9 @@ MonoBehaviour:
   itemId: 51
   indentLevel: 0
   storyText: There's a lot of work to be done in the spaceship, so I'll stay here.
-    Once you have collected some evidence, come back here to run the analysis. Remember,
-    you need evidence to support your hypothesis and you can always change your mind!
+    Once you have collected some evidence in your backpack, come back here to run
+    the analysis. Remember, you need evidence to support your hypothesis and you
+    can always change your mind!
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -8700,7 +8688,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 57
   indentLevel: 0
-  text: OK, I'll go talk to the Mayor.
+  text: OK, I'll go talk to the Mayor right away.
   description: 
   targetBlock: {fileID: 196521295}
   hideIfVisited: 0
@@ -8725,7 +8713,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 56
   indentLevel: 0
-  storyText: Also, come and find me if you have any questions.
+  storyText: Remember, you can teleport back here to me if you have any questions.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -8770,7 +8758,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 293.35632
     y: 47.713394
-    width: 79.03229
+    width: 84.78261
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8826,7 +8814,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 85.54197
     y: 1180.712
-    width: 162.90332
+    width: 165.21739
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8906,7 +8894,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 33.139923
     y: -106.8033
-    width: 108.06457
+    width: 113.04347
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9069,7 +9057,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 288.86575
     y: 1181.295
-    width: 124.19361
+    width: 126.08695
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -14304,8 +14292,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 390422472}
-  m_LocalRotation: {x: -0.13330983, y: 0.84764, z: 0.2527713, w: 0.44703656}
-  m_LocalPosition: {x: 158.40694, y: -30.475637, z: -84.0438}
+  m_LocalRotation: {x: -0.0070758304, y: -0.9924924, z: 0.099772185, w: -0.07038708}
+  m_LocalPosition: {x: -6.7083406, y: -10.480093, z: 73.72431}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -40525,7 +40513,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 511
     y: 87
-    width: 78.3582
+    width: 73.529396
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -40557,21 +40545,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -223.9294, y: 73.60663}
+  scrollPos: {x: -1.4716966, y: 626.9719}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
-  zoom: 0.67000026
+  zoom: 0.34000024
   scrollViewRect:
     serializedVersion: 2
     x: 0
     y: 0
     width: 0
     height: 0
-  selectedBlocks:
-  - {fileID: 1301781721}
-  selectedCommands:
-  - {fileID: 1301781750}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 1301781753}
   - {fileID: 1301781764}
@@ -40602,7 +40588,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 639
     y: 204
-    width: 181.34323
+    width: 158.82346
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -40733,7 +40719,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 336
     y: 197
-    width: 141.04474
+    width: 129.41171
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -40793,7 +40779,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 659
     y: 338
-    width: 175.37308
+    width: 176.47049
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -40821,7 +40807,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 520
     y: 338
-    width: 112.68654
+    width: 120.58819
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -40849,7 +40835,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 379
     y: 326
-    width: 118.65669
+    width: 117.64701
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -40877,7 +40863,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 255
     y: 327
-    width: 118.65669
+    width: 120.58819
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -40905,7 +40891,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 134
     y: 317
-    width: 105.22386
+    width: 102.94114
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -41163,7 +41149,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 286.93616
     y: 445
-    width: 90.29849
+    width: 85.2941
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -41237,7 +41223,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 296.4681
     y: 591.9362
-    width: 70.895515
+    width: 70.58822
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -42834,7 +42820,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 765.40717
     y: 82.84102
-    width: 105.22386
+    width: 94.117615
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -53561,6 +53547,7 @@ GameObject:
   - component: {fileID: 1570695993}
   - component: {fileID: 1570695992}
   - component: {fileID: 1570695991}
+  - component: {fileID: 1570695996}
   m_Layer: 0
   m_Name: 4002
   m_TagString: Untagged
@@ -53676,9 +53663,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: Whether you can find the result, but you know, the experience is wonderful.
-    When I was young, I used to like watching the various energy fields in the universe.
-    Splendid! I felt I am one of it.
+  storyText: Wow! This has been such an adventure.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -53715,7 +53700,8 @@ MonoBehaviour:
   blockName: Thanks for your trust!
   description: 
   eventHandler: {fileID: 0}
-  commandList: []
+  commandList:
+  - {fileID: 1570695996}
   suppressAllAutoSelections: 0
 --- !u!114 &1570695992
 MonoBehaviour:
@@ -53756,7 +53742,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  storyText: I know it's hard to find something we don't know, but I believe you!
+  storyText: I know gathering evidence can be hard sometimes but you've totally got
+    this.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -53811,7 +53798,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  text: AH, and then you bring us here!
+  text: Yes, this investigation is quite exciting.
   description: 
   targetBlock: {fileID: 1570695994}
   hideIfVisited: 0
@@ -53822,6 +53809,33 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
+--- !u!114 &1570695996
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1570695985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 8
+  indentLevel: 0
+  storyText: No worries.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &1573224467 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 149790, guid: 3b8dd9b667066c944b9d64d90dfca28f,
@@ -67938,7 +67952,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 196521274}
+  selectedFlowchart: {fileID: 1301781722}
 --- !u!4 &2067806043
 Transform:
   m_ObjectHideFlags: 1
