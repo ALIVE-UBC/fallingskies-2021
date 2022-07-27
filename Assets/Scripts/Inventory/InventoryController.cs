@@ -49,7 +49,7 @@ public class InventoryController : MonoBehaviour
         }
 
         // Move the object to the player's current position.
-        origGameObject.transform.position = _playerPos.position + _playerPos.forward + Vector3.up;
+        origGameObject.transform.position = _playerPos.position + _playerPos.forward + new Vector3(0,2,0);
         origGameObject.SetActive(true);
 
         MetricsUploader.LogEvent(MetricEventType.BACKPACK_DISCARD, "ItemId", item.ItemId, "ItemName", item.ItemName);
