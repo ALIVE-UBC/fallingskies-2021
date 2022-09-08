@@ -98,7 +98,7 @@ public class SubmitButton : MonoBehaviour
 
         // show feedback screen
         _ui.ShowFeedbackSection()
-            .SetStoryText("Great, would you tell me more about your ideas?");
+            .SetStoryText("Thank you! Can you tell me more about your ideas?");
     }
 
     public void SubmitFeedback()

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 3002 Fetch Firewood (Jessica)
   m_EditorClassIdentifier: 
   Id: 3002
-  Title: Bring Jessica a firewood
+  Title: Bring Jessica some firewood
   TitlePendingSubmission: Go back to talk with Jessica
   Description: 'Help Jessica collect a basket of firewood. You can find it in the
     Southern Woods.
