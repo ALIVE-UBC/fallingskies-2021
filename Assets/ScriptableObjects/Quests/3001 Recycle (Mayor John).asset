@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c579cb88a39776240801217bfe21463e, type: 3}
-  m_Name: 3001 Recycle (John)
+  m_Name: 3001 Recycle (Mayor John)
   m_EditorClassIdentifier: 
   Id: 3001
-  Title: Help John clean his read room
-  TitlePendingSubmission: Go back to talk with John
-  Description: 'Clean up John''s study behind John.
+  Title: Help Mayor John clean his office
+  TitlePendingSubmission: Go back to talk with Mayor John
+  Description: 'Clean up John''s office behind Mayor John.
 
 
     Once you have cleaned
-    John''s study, talk to John again.'
+    Mayor John''s study, talk to Mayor John again.'
   State: 0
   RewardItems:
   - {fileID: 11400000, guid: b87e2520088624240903b7c184992a35, type: 2}

@@ -18,6 +18,13 @@ MonoBehaviour:
   IsReport: 1
   ItemDescription: 'Name: Water Sample (Farm)
 
+    Colour: Clear
+
+    Odour: None
+
+    pH:
+    7
+
     Phosphorus < 5.0 mg / l. (Safe)'
   ItemThumbnail: {fileID: 21300000, guid: 07a73bc26d08ab44499c4f761c6c26b1, type: 3}
   IsComputerCompatible: 0

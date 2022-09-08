@@ -16,7 +16,17 @@ MonoBehaviour:
   ItemStackSize: 1
   ItemName: Water Report (Factory)
   IsReport: 1
-  ItemDescription: "Name: Water Sample (Factory)\r\nColour: \r\nOdor: \r\nTBD."
+  ItemDescription: 'Name: Water Sample (Factory)
+
+    Colour: Brown
+
+    Odour:
+    Burnt-sugar like odour
+
+    pH: 8.6
+
+    Description: High levels of suspended
+    solids.'
   ItemThumbnail: {fileID: 21300000, guid: 77131829a2279444b92c736cd2e59eb0, type: 3}
   IsComputerCompatible: 0
   IsMicroscopeCompatible: 0

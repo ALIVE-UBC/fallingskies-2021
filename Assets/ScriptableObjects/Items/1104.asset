@@ -16,7 +16,16 @@ MonoBehaviour:
   ItemStackSize: 1
   ItemName: Water Report (Lake)
   IsReport: 1
-  ItemDescription: "Name: Water Sample (Lake)\r\nColour:\r\nOdor: \r\nTBD."
+  ItemDescription: 'Name: Water Sample (Lake)
+
+    Colour: Light brown
+
+    Odour:
+    Slightly sweet
+
+    pH: 7.8
+
+    Description: High levels of algae.'
   ItemThumbnail: {fileID: 21300000, guid: 5b28988479c7ec4438a8ec51363b4994, type: 3}
   IsComputerCompatible: 0
   IsMicroscopeCompatible: 0

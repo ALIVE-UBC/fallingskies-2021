@@ -10352,7 +10352,7 @@ PrefabInstance:
     - target: {fileID: 1914016145283880756, guid: 480002be08b34594ab2d9e2e3aeee4e5,
         type: 3}
       propertyPath: m_Name
-      value: TalkableCapsule John
+      value: TalkableCapsule Mayor John
       objectReference: {fileID: 0}
     - target: {fileID: 1914016145283880759, guid: 480002be08b34594ab2d9e2e3aeee4e5,
         type: 3}
@@ -10417,7 +10417,7 @@ PrefabInstance:
     - target: {fileID: 4364192394821725836, guid: 480002be08b34594ab2d9e2e3aeee4e5,
         type: 3}
       propertyPath: nameText
-      value: John
+      value: Mayor John
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 480002be08b34594ab2d9e2e3aeee4e5, type: 3}
@@ -12596,7 +12596,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 290.4431, y: 0}
+  m_AnchoredPosition: {x: 290.4375, y: 0}
   m_SizeDelta: {x: -580.8862, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &304218601
@@ -14756,8 +14756,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 390422472}
-  m_LocalRotation: {x: -0.080782, y: 0.055823907, z: 0.0045315134, w: 0.995157}
-  m_LocalPosition: {x: -0.12, y: -9.42, z: -3.57}
+  m_LocalRotation: {x: -0.046040297, y: 0.95303935, z: 0.18912436, w: 0.23200917}
+  m_LocalPosition: {x: -6.370865, y: -27.672567, z: 70.47461}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -33714,7 +33714,7 @@ GameObject:
   m_Component:
   - component: {fileID: 921046898}
   m_Layer: 0
-  m_Name: John
+  m_Name: Mayor John
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38038,7 +38038,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 333.0597, y: -555}
+  m_AnchoredPosition: {x: 333.0625, y: -555}
   m_SizeDelta: {x: 536.1194, y: 810}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1040014571
@@ -50230,8 +50230,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1316514783}
-  m_LocalRotation: {x: 0.022520026, y: 0.9702863, z: 0.09961769, w: -0.21934824}
-  m_LocalPosition: {x: 10.248428, y: -9.083858, z: 2.3352227}
+  m_LocalRotation: {x: -0.080782, y: 0.055823907, z: 0.0045315134, w: 0.995157}
+  m_LocalPosition: {x: -0.12, y: -9.42, z: -3.57}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -52441,6 +52441,7 @@ GameObject:
   - component: {fileID: 1382056615}
   - component: {fileID: 1382056614}
   - component: {fileID: 1382056613}
+  - component: {fileID: 1382056616}
   m_Layer: 0
   m_Name: 0.TutorialNPC
   m_TagString: Untagged
@@ -52524,6 +52525,27 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1382056616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1382056611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 4
+  indentLevel: 0
+  _targetGameObject:
+    gameObjectRef: {fileID: 0}
+    gameObjectVal: {fileID: 2080064911}
+  activeState:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1382056620
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -52566,6 +52588,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 1382056615}
   - {fileID: 1382056614}
+  - {fileID: 1382056616}
   - {fileID: 1382056613}
   suppressAllAutoSelections: 0
 --- !u!114 &1382056622
@@ -52594,7 +52617,8 @@ MonoBehaviour:
     height: 0
   selectedBlocks:
   - {fileID: 1382056621}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 1382056616}
   variables: []
   description: 
   stepPause: 0
@@ -60253,7 +60277,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -659.2844, y: 399.06345}
+  m_AnchoredPosition: {x: -659.28125, y: 399.06348}
   m_SizeDelta: {x: -1318.5889, y: -1456.2014}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1558500878
@@ -61403,7 +61427,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1066.4701, y: -555}
+  m_AnchoredPosition: {x: 1066.4688, y: -555}
   m_SizeDelta: {x: 837.6865, y: 810}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1587327272
@@ -66939,7 +66963,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 624.3731, y: -555}
+  m_AnchoredPosition: {x: 624.375, y: -555}
   m_SizeDelta: {x: 46.50746, y: 810}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1829559145
@@ -72226,7 +72250,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -768.6457, y: -516.7006}
+  m_AnchoredPosition: {x: -768.6406, y: -516.70056}
   m_SizeDelta: {x: -1537.2979, y: -1033.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1974191486
@@ -75919,7 +75943,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 644192722}
+  selectedFlowchart: {fileID: 1382056622}
 --- !u!4 &2067806043
 Transform:
   m_ObjectHideFlags: 1
@@ -77674,7 +77698,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2080064912
 RectTransform:
   m_ObjectHideFlags: 0
@@ -79130,7 +79154,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -39.07617, y: -25}
+  m_AnchoredPosition: {x: -39.078125, y: -25}
   m_SizeDelta: {x: 219.37, y: 210.9}
   m_Pivot: {x: 1.0000002, y: 1.0000002}
 --- !u!114 &2120067711

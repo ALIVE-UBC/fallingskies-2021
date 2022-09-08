@@ -16,7 +16,14 @@ MonoBehaviour:
   ItemStackSize: 1
   ItemName: Factory Report
   IsReport: 1
-  ItemDescription: TBD.
+  ItemDescription: "The Sugar Factory Report reveals that the Village Council approved
+    the factory for sugar beet production. Checkerboard Farms is one of the region\u2019s
+    suppliers of sugar beets.\r\n\r\nThe factory uses a considerable amount of water
+    during production and, as a result, generates what s called \u201Csugar mill
+    effluent.\u201D This effluent requires a lot of processing to be clean enough
+    to be put back into the river. If not, effluent runoff can have a burnt-sugar-like
+    odour, a high pH, a high level of suspended solids, other nutrients, and heavy
+    metals that may cause algae blooms."
   ItemThumbnail: {fileID: 21300000, guid: f7dcd75e73130ee458f7fa0a8bad5a60, type: 3}
   IsComputerCompatible: 0
   IsMicroscopeCompatible: 0
