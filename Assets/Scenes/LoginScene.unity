@@ -1388,7 +1388,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 921447967}
         m_TargetAssemblyTypeName: LoginManager, Assembly-CSharp
-        m_MethodName: OpenSurveyPage
+        m_MethodName: OpenStartSurveyPage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

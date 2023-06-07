@@ -15,7 +15,7 @@ public class LoginManager : MonoBehaviour
     [SerializeField] TMP_Text _errorText = default;
 
     const string Psk = "interior standby purge endogamy queued impanel matins leakage bunkum brackish";
-    const string SurveyUrl = "https://alivelab.ca/alive-survey";
+    const string StartSurveyUrl = "https://alivelab.ca/alive-pre-survey";
 
     private UserManager _userManager;
 
@@ -25,9 +25,9 @@ public class LoginManager : MonoBehaviour
         ShowError("");
     }
 
-    public void OpenSurveyPage()
+    public void OpenStartSurveyPage()
     {
-        Application.OpenURL(SurveyUrl);
+        Application.OpenURL(StartSurveyUrl);
     }
 
     public void PasteCode()
