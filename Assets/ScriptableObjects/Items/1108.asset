@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ItemId: 1108
   ItemStackSize: 1
-  ItemName: Water Report (Farm)
+  ItemName: Soil Report (Farm)
   IsReport: 1
-  ItemDescription: 'Name: Water Sample (Farm)
+  ItemDescription: 'Name: Soil Sample (Farm)
 
     Colour: Clear
 

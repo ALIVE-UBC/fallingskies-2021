@@ -16,7 +16,7 @@ MonoBehaviour:
   ItemStackSize: 1
   ItemName: Pesticide Report
   IsReport: 1
-  ItemDescription: "Name: Pasticide \r\nContain lmidacloprid.\r\nCompliance with
+  ItemDescription: "Name: Pesticide \r\nContain lmidacloprid.\r\nCompliance with
     safety standards"
   ItemThumbnail: {fileID: 21300000, guid: c9d87f3194506af47abf1556e3bc806d, type: 3}
   IsComputerCompatible: 0
