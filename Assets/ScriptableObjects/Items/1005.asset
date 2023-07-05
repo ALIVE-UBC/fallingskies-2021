@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ItemId: 1005
   ItemStackSize: 1
-  ItemName: Baby Egg
+  ItemName: Egg
   IsReport: 0
   ItemDescription: Normal bird egg. Quest Item.
   ItemThumbnail: {fileID: 21300000, guid: 5bdb24d49637a7244930448520fbb67c, type: 3}

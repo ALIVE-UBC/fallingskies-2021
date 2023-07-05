@@ -34,7 +34,7 @@ public class InteractionController : MonoBehaviour
     {
         _toastText.text = message;
         _toast.gameObject.SetActive(true);
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(5f);
         _toastText.text = "";
         _toast.gameObject.SetActive(false);
     }
