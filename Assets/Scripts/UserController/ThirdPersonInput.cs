@@ -31,7 +31,7 @@ public class ThirdPersonInput : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Control.m_Jump = Button.Pressed;
+        Control.m_Jump = Button.Pressed;
         Control.Hinput = LeftJoystick.Direction.x;
         Control.Vinput = LeftJoystick.Direction.y;
 
