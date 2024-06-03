@@ -96,7 +96,7 @@ public class InventoryUi : MonoBehaviour
             case InventoryType.Player:
                 pType = item.IsReport ? PopupType.ReportDiscard : PopupType.NormalDiscard;
                 action = () => { _invCtl.DiscardItem(item); };
-                MetricsUploader.LogEvent(MetricEventType.INSPECT, "ItemId", item.ItemId);
+                MetricsUploader.LogEvent(MetricEventType.INSPECT, "ItemId", item.ItemId, "ItemName", item.ItemName);
                 break;
             case InventoryType.Computer:
             case InventoryType.Microscope:

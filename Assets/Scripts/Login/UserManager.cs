@@ -27,5 +27,7 @@ public class UserManager : MonoBehaviour
     public void Write(string key, object value)
     {
         Data[key] = value;
+
+        MetricsUploader.LogEvent(MetricEventType.ASSESSMENT_UPDATE, key, value);
     }
 }
