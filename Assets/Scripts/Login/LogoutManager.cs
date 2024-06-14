@@ -2,13 +2,20 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 using UnityEngine.SceneManagement;
 
 public class LogoutManager : MonoBehaviour
 {
-    const string EndSurveyUrl = "https://ubc.ca1.qualtrics.com/jfe/form/SV_d4MNs2XTc2DRRie?UserID=";
-
+    const string EndSurveyURL = "https://alivelab.ca/alive-post-survey";
     private UserManager _userManager;
+    public IEnumerator GetRedirectURL(string url)
+    {
+        UnityWebRequest request = UnityWebRequest.Get(url);
+        yield return request.SendWebRequest();
+        int userId = GetUserId();
+        Application.OpenURL(request.url + "?UserID=" + userId);
+    }
 
     private void Start()
     {
@@ -17,7 +24,7 @@ public class LogoutManager : MonoBehaviour
 
     public void OpenEndSurveyPage()
     {
-        Application.OpenURL(EndSurveyUrl + GetUserId());
+        StartCoroutine(GetRedirectURL(EndSurveyURL));
     }
 
     private static int GetUserId()
