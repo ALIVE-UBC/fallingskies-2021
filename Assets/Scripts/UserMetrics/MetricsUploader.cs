@@ -4,10 +4,10 @@ using System.Collections.Generic;
 using System.Net;
 using UnityEngine;
 using System.Net.Http;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Converters;
+//using Newtonsoft.Json;
+//using Newtonsoft.Json.Converters;
 
-[JsonConverter(typeof(StringEnumConverter))]
+//[JsonConverter(typeof(StringEnumConverter))]
 public enum MetricEventType
 {
     // ReSharper disable InconsistentNaming
@@ -61,7 +61,9 @@ public class MetricEvent
 
 public class MetricsUploader : MonoBehaviour
 {
-    private const string EventApiUrl = "https://alive.educ.ubc.ca/fsd/metrics/event/";
+  //  private const string EventApiUrl = "https://alive.educ.ubc.ca/fsd/metrics/event/";
+
+    const string EventApiUrl = "";
     private static readonly HttpClient Client = new HttpClient();
 
     private static int GetUserId()
@@ -97,17 +99,17 @@ public class MetricsUploader : MonoBehaviour
     private static async void SerializeAndSendEvent(MetricEvent metricEvent)
     {
         // Serialize MetricEvent into JSON.
-        string jsonText = JsonConvert.SerializeObject(metricEvent);
-        print(jsonText);
+     //   string jsonText = JsonConvert.SerializeObject(metricEvent);
+    //    print(jsonText);
 
         // Send JSON over HTTP.
-        var resp = await Client.PutAsync(EventApiUrl, new StringContent(jsonText));
+   //     var resp = await Client.PutAsync(EventApiUrl, new StringContent(jsonText));
 
         // Verify if the return code is HTTP 201.
-        if (resp.StatusCode != HttpStatusCode.Created)
+      /*  if (resp.StatusCode != HttpStatusCode.Created)
         {
             string errorText = await resp.Content.ReadAsStringAsync();
             Debug.LogError($"HTTP Error {resp.StatusCode}: {errorText}");
-        }
+        }*/
     }
 }

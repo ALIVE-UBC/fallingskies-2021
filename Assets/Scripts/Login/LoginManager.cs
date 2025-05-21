@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
-using JWT.Builder;
+/*using JWT.Builder;
 using JWT.Algorithms;
-using JWT.Exceptions;
+using JWT.Exceptions;*/
 
 public class LoginManager : MonoBehaviour
 {
@@ -14,8 +14,11 @@ public class LoginManager : MonoBehaviour
     [SerializeField] TMP_InputField _codeInput = default;
     [SerializeField] TMP_Text _errorText = default;
 
-    const string Psk = "interior standby purge endogamy queued impanel matins leakage bunkum brackish";
-    const string StartSurveyUrl = "https://alivelab.ca/alive-pre-survey";
+    // const string Psk = "interior standby purge endogamy queued impanel matins leakage bunkum brackish";
+ const string StartSurveyUrl = "https://alivelab.ca/alive-pre-survey";
+
+    const string Psk = "";
+//const string SurveyUrl = "";
 
     private UserManager _userManager;
 
@@ -39,7 +42,7 @@ public class LoginManager : MonoBehaviour
     public void VerifyCode()
     {
         // Prevent the code from being stripped in iOS builds.
-        var _ = new JwtHeader();
+       /* var _ = new JwtHeader();
 
         ShowError("");
 
@@ -58,7 +61,7 @@ public class LoginManager : MonoBehaviour
             Debug.LogError(e);
             ShowError($"Invalid code. Ask your instructor for help.\n{e.Message}");
             return;
-        }
+        }*/
 
         SceneManager.LoadScene("CharacterScene");
     }

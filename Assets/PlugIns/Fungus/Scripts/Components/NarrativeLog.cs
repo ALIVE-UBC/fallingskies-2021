@@ -120,8 +120,9 @@ namespace Fungus
         /// <returns></returns>
         public string GetJsonHistory()
         {
-            string jsonText = JsonUtility.ToJson(history, true);
-            return jsonText;
+       //     string jsonText = JsonUtility.ToJson(history, true);
+         //   return jsonText;
+         return "return"; 
         }
 
         /// <summary>
