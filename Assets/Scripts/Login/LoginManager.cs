@@ -4,9 +4,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
-using JWT.Builder;
-using JWT.Algorithms;
-using JWT.Exceptions;
+//using JWT.Builder;
+//using JWT.Algorithms;
+//using JWT.Exceptions;
 
 public class LoginManager : MonoBehaviour
 {
@@ -22,7 +22,7 @@ public class LoginManager : MonoBehaviour
     private void Start()
     {
         _userManager = FindObjectOfType<UserManager>();
-        ShowError("");
+       // ShowError("");
     }
 
     public void OpenStartSurveyPage()
@@ -33,10 +33,10 @@ public class LoginManager : MonoBehaviour
     public void PasteCode()
     {
         string code = GUIUtility.systemCopyBuffer;
-        _codeInput.text = code;
-    }
+            _codeInput.text = code;
+        }
 
-    public void VerifyCode()
+   /** public void VerifyCode()
     {
         // Prevent the code from being stripped in iOS builds.
         var _ = new JwtHeader();
@@ -66,6 +66,6 @@ public class LoginManager : MonoBehaviour
     private void ShowError(string msg)
     {
         _errorText.text = msg;
-    }
+    }**/
 
 }
